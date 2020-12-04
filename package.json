@@ -1,0 +1,11 @@
+{
+  "name": "copy2clipboard",
+  "version": "1.0.0",
+  "description": "vue指令，复制dom到clipboard，默认是png格式，可以直接去聊天室粘贴",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vencent",
+  "license": "ISC"
+}
