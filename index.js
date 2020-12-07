@@ -73,7 +73,7 @@ class canvas2clipboard {
 
 export default {
     install: (Vue) => {
-        Vue.directive('copy2clipboard', {
+        Vue.directive('canvas2clipboard', {
             bind: function (el, binding, vnode) {
                 new canvas2clipboard(el, binding, vnode)
             }

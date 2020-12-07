@@ -1,6 +1,6 @@
 {
   "name": "canvas2clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue指令，复制dom到clipboard，默认是png格式，可以直接去聊天室粘贴，取代execCommand",
   "main": "index.js",
   "scripts": {
