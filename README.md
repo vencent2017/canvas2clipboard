@@ -4,9 +4,10 @@ Vue.use(copy2clipboard)
 
 demo:
 ```
-<div class="png-wrap" ref="pngWrap">
-    <img width="600px" :src="require('../assets/shuiku.jpg')" alt="">
-</div>
+// <div class="png-wrap" ref="pngWrap">
+//    <img width="600px" :src="require('../assets/shuiku.jpg')" alt="">
+// </div>
+<canvas ref="pngWrap"> ... </canvas>
 <button v-copy2clipboard="copypng()">复制图片</button>
 
 copypng() {
@@ -21,3 +22,4 @@ copypng() {
 ```
 
 简单实现，主要是提供思路，目前还存在较严重的兼容问题，以后会逐步提代execCommand
+- npm 不允许发布外部依赖项，所以上述 dome 使用 html2canvas 无法直接注入  小伙伴先生成canvas再使用复制
