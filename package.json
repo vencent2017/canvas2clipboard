@@ -1,5 +1,5 @@
 {
-  "name": "copy2clipboard",
+  "name": "canvas2clipboard",
   "version": "1.0.0",
   "description": "vue指令，复制dom到clipboard，默认是png格式，可以直接去聊天室粘贴，取代execCommand",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vencent2017/copy2clipboard.git"
+    "url": "git+https://github.com/vencent2017/canvas2clipboard.git"
   },
   "keywords": [
     "vue",
